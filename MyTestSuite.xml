@@ -1,0 +1,9 @@
+<suite name="MyTestSuit">
+	<test name="MyTest">
+		<classes>
+			<class name="testng.BasicTestNG"></class>
+			<class name="testng.BasicAnnotation"></class>
+			<class name="testng.BeforeAfterMethod"></class>		
+		</classes>
+	</test>
+</suite>

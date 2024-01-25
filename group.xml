@@ -1,0 +1,15 @@
+<suite name="group">
+	<test name="MyTest">
+		<groups>
+			<run>
+				<!--<exclude name="High"></exclude>!-->
+				<include name="Run"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.BasicTestNG"></class>
+			<class name="testng.BasicAnnotation"></class>
+			<class name="testng.BeforeAfterMethod"></class>
+		</classes>
+	</test>
+</suite>
